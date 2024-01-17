@@ -50,7 +50,7 @@ void destructor(QuickFind *quickFind)
   }
 }
 
-void addConnection(QuickFind *quickFind, size_t p, size_t q)
+void merge(QuickFind *quickFind, size_t p, size_t q)
 {
   int pid = quickFind->ids[p];
   int qid = quickFind->ids[q];
@@ -106,7 +106,7 @@ void executeQuickFind()
 
   for (size_t i = 0; i < sizeof(input) / sizeof(input[0]); i++)
   {
-    addConnection(quickFind, input[i][0], input[i][1]);
+    merge(quickFind, input[i][0], input[i][1]);
   }
 
   printf("The quantity of components in the Union is %zu\n", count(quickFind));

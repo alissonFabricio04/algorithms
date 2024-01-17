@@ -11,7 +11,7 @@ typedef struct
 
 QuickFind *constructor(size_t N);
 void destructor(QuickFind *quickFind);
-void addConnection(QuickFind *quickFind, size_t p, size_t q);
+void merge(QuickFind *quickFind, size_t p, size_t q);
 int connected(QuickFind *quickFind, size_t p, size_t q);
 int find(QuickFind *quickFind, size_t p);
 size_t count(QuickFind *quickFind);
