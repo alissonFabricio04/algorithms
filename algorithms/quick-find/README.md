@@ -40,6 +40,3 @@ console.log(isConnected); // Saída esperada: true
 ## Contributions
 
 Contribuições são bem-vindas! Se você deseja melhorar este README ou adicionar exemplos adicionais, sinta-se à vontade para enviar um pull request.
-
-```
-Lembre-se de substituir o pseudocódigo e a descrição com informações específicas para o algoritmo Quick Find.
